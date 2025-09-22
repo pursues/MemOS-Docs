@@ -4,24 +4,25 @@ nav:
   # You can find available icons at https://icones.js.org/
   - "(ri:book-line) 概览":
     - "(ri:home-line) MemOS简介": overview/introduction.md
-    - "(ri:cpu-line) 算法原理概述": overview/algorithm.md
-    - "(ri:question-line) 常见问题": overview/faq.md
     - "(ri:rocket-line) 快速开始":
+      - "(ri:eye-line) 概览": overview/quick_start/overview.md
       - "(ri:add-line) 记忆生产": overview/quick_start/mem_production.md
       - "(ri:calendar-line) 记忆调度": overview/quick_start/mem_schedule.md
-      - "(ri:refresh-line) 记忆生命周期管理": overview/quick_start/mem_lifecycle.md
       - "(ri:search-line) 记忆召回和指令补全": overview/quick_start/mem_recall.md
+      - "(ri:refresh-line) 记忆生命周期管理": overview/quick_start/mem_lifecycle.md
+    - "(ri:question-line) FAQs": overview/faq.md
+    - "(ri:cpu-line) MemOS算法原理概述": overview/algorithm.md
 
-  - "(ri:dashboard-line) 云服务平台":
-    - "(ri:eye-line) 概览": dashboard/overview.md
+  - "(ri:dashboard-line) 云平台":
+    - "(ri:eye-line) 云平台简介": dashboard/overview.md
     - "(ri:play-line) 快速开始": dashboard/quick_start.md
     - "(ri:shield-line) 配额和限制": dashboard/limit.md
 
-  - "(ri:lightbulb-line) 使用场景":
-    - "(ri:money-dollar-circle-line) 理财助手": usecase/financial_assistant.md
-    - "(ri:heart-line) 生活助手": usecase/life_assistant.md
-    - "(ri:edit-line) 写作助手": usecase/writting_assistant.md
-  
+  - "(ri:lightbulb-line) 最佳实践":
+    - "(ri:money-dollar-circle-line) 让理财助手读懂客户行为背后的偏好": usecase/financial_assistant.md
+    - "(ri:edit-line) 有记忆的写作助手更好用": usecase/writting_assistant.md
+    - "(ri:heart-line) 构建拥有记忆的家庭生活助手": usecase/life_assistant.md
+
   - "(ri:open-source-line) 开源项目":
     - "(ri:home-line) 首页":
       - "(ri:eye-line) 概览": open_source/home/overview.md
@@ -61,7 +62,7 @@ nav:
       - "(ri:seedling-line) 第一章 你的第一个 MemCube":
         - "(ri:cloud-line) API": open_source/cookbook/chapter1/api.md
         - "(ri:node-tree) OLLAMA": open_source/cookbook/chapter1/ollama.md
-      - "(ri:database-2-line) 第二章 TreeNodeTextualMemoryMetadata": 
+      - "(ri:database-2-line) 第二章 TreeNodeTextualMemoryMetadata":
         - "(ri:cloud-line) API": open_source/cookbook/chapter2/api.md
         - "(ri:node-tree) OLLAMA": open_source/cookbook/chapter2/ollama.md
       - "(ri:search-2-line) 第三章 智能小说分析系统": open_source/cookbook/chapter3/overview.md
