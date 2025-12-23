@@ -219,8 +219,6 @@ docker images
 # Check if running
 docker ps -a
 
-# Estimated missing packages, pymilvus, psycopg2-binary
-pip install pymilvus psycopg2-binary
 
 
 # Root directory
